@@ -3,7 +3,7 @@
     <x:Property Name="in_System1_URL" Type="InArgument(x:String)" />
     <x:Property Name="in_System1_Credential" Type="InArgument(x:String)" />
   </x:Members>
-  <sap:VirtualizedContainerService.HintSize>976,2033</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>976,1993</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <mva:VisualBasic.Settings>Assembly references and imported namespaces for internal implementation</mva:VisualBasic.Settings>
   <TextExpression.NamespacesForImplementation>
@@ -135,7 +135,7 @@
                     </ui:UiElementExists.Target>
                   </ui:UiElementExists>
                   <If Condition="[Not isLoginComplete]" sap:VirtualizedContainerService.HintSize="521,464" sap2010:WorkflowViewState.IdRef="If_2">
-                    <If.Else>
+                    <If.Then>
                       <Sequence sap:VirtualizedContainerService.HintSize="376,317" sap2010:WorkflowViewState.IdRef="Sequence_13">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg1:Dictionary x:TypeArguments="x:String, x:Object">
@@ -169,7 +169,7 @@
                           </sap:WorkflowViewStateService.ViewState>
                         </Throw>
                       </Sequence>
-                    </If.Else>
+                    </If.Then>
                   </If>
                 </Sequence>
               </If.Then>
